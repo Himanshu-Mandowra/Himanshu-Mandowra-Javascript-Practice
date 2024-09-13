@@ -1,6 +1,6 @@
 #  Solution Code
 
-## Project 1
+## Project 1 bg Color changer
 
 ``` Javascript
 console.log("Himanshu")
