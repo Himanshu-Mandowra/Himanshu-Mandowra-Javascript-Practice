@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .button{
+            height: 40px;
+            width: 40px;
+            border: 2px solid white;
+            display: flex;
+            margin: 30px;
+        }
+    </style>
+
+</head>
+<body style="background: black; color: white;">
+    <h1>Color scheme switcher</h1>
+    <span class="button" id="grey"></span>
+    <span class="button" id="white"></span>
+    <span class="button" id="blue"></span>
+    <span class="button" id="yellow"></span>
+    <span class="button" id="purple"></span>
+
+    <script src="main.js"></script>
+    <script>
+        const btn = document.querySelectorAll('.button')
+        btn.forEach(function(button){
+            button.style.backgroundColor =  button.id;
+        })
+    </script>
+</body>
+</html>

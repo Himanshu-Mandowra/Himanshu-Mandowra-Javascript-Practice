@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .bg-black{
+            background-color: #212121;
+            color: #fff;
+        }
+    </style>
+</head>
+<body class ="bg-black">
+    <div>
+        <h1 id="demo" class="heading">Dom learning on chai aur code</h1>
+        <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+
+
+<!-- ////////////////////OTHER UNIVERSE, NOT CONNECTED WITH UPPER CODE -->
+    <script>
+        const arr1 = [".", "ABC", "DEF", "GHI", "JKL"];
+        let input = 1;
+        let input2 = 2;
+
+        let var1 = arr1[input];
+        let var2 = arr1[input2];
+        let output = []; 
+
+        for(let i=0; i<var1.length; i++){
+            for(let j=0; j<var2.length; j++){
+
+                output.push(var1[i] + var2[j]+ '\n');
+            }
+
+            
+        }
+
+        document.getElementById("demo").innerHTML= output;
+
+
+    </script>
+</body>
+</html>
